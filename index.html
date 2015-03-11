@@ -1,248 +1,133 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>SIP</title>
+		<link href="css/bootstrap.min.css"rel="stylesheet" type="text/css" >
+		<link href="css/webfont.css" rel="stylesheet" type="text/css" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+		
+	</head>
+	<body>
+		<div class="menubar" data-scroll="true">
+			<a href="#" class="logo"></a>
+			<ul class="mainmenu">
+				<li class="active"><a href="#home">Productos</a></li>
+				<li><a href="#servicios">Servicios</a></li>
+				<li><a href="#galeria">Galeria</a></li>
+				<li><a href="#nosotros">Nosotros</a></li>
+				<li><a href="#contacto">Contacto</a></li>
+			</ul>
+		</div> <!-- /Menu -->
+				
+		<a class="scroll" id="home"></a>
+		<div class="home hero">
+			<div class="overlay"></div>
+				<div class="herowrapper">
+					<p class="logoimg"></p>
+					<h2><img src="img/logosip.png" alt=""></h2>
+					<h1><b class="rotate color">Anuncios Luminosos,Letras Individuales,Unipolares,Impresión Gran Formato</b></h1>
+				</div>
+				<a href="javascript:void(0);" class="scrolldown">
+				<h3>Continuar</h3>
+				<div data-icon="&#xe017;" class="icon"></div>
+			</a>
+		</div> <!-- /Hero Unit -->
+		
 
-<head>
-  <meta charset="UTF-8">
-  <title>TOPSA</title>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/main.css">
-  <script src="js/prefixfree.min.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+		<div class="title main">
+			<h1>Productos</h1>
+		</div> <!-- Title Productos -->
 
-<body>
-
-<header>
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#featured"><h1>TOPSA <span class="subhead">Anuncios</span></h1></a>
-      </div><!-- navbar-header -->
-      <div class="collapse navbar-collapse" id="collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="#featured">Inicio</a></li>
-          <li><a href="#productos">Productos</a></li>
-          <li><a href="#servicios">Servicios</a></li>
-          <li><a href="#galeria">Galeria</a></li>
-          <li><a href="#contacto">Contacto</a></li>
-        </ul>        
-      </div><!-- collapse navbar-collapse -->
-    </div><!-- container -->
-  </nav>
-
-  <div class="carousel fade" data-ride="carousel" id="featured">
-
-    <ol class="carousel-indicators">
-    </ol>
-
-    <div class="carousel-inner fullheight">
-      <div class="item"><img src="img/1.jpg" alt="anuncio1"></div>
-      <div class="item"><img src="img/2.jpg" alt="anuncio2"></div>
-      <div class="item"><img src="img/3.jpg" alt="anuncio3"></div>
-      <div class="item"><img src="img/4.jpg" alt="anuncio4"></div>
-      <div class="item"><img src="img/5.jpg" alt="anuncio5"></div>      
-    </div><!-- carousel-inner -->
-
-    <a class="left carousel-control" href="#featured" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-    </a>
-    <a class="right carousel-control" href="#featured" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-    </a>
-  </div><!-- featured carousel -->
-</header>
-
-<div class="main">
-
-  <div class="page" id="productos">
-    <div class="content container">
-      <h1>Productos</h1>
-      <div class="row">
-        <article class="producto col-md-4 col-sm-4 col-xs-12">
-          <img class="icon" src="img/icons/unipolar.svg" alt="Icon">
-          <h3>Cajas de Luz</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit voluptates cupiditate iure ipsa, et facere.</p>
-        </article>
-
-        <article class="producto col-md-4 col-sm-4 col-xs-12">
-          <img class="icon" src="img/icons/letra.svg" alt="Icon">
-          <h3>Letras Individuales</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, officia.</p>
-        </article>
-
-        <article class="producto col-md-4 col-sm-4 col-xs-12">
-          <img class="icon" src="img/icons/impresion.svg" alt="Icon">
-          <h3>Unipolares</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere eaque quae odio placeat quis ducimus perspiciatis?</p>
-        </article>
-
-        <article class="producto col-md-4 col-sm-4 col-xs-12">
-          <img class="icon" src="img/icons/unipolar.svg" alt="Icon">
-          <h3>Impresión Gran Formato</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, molestias commodi accusantium.</p>
-        </article>
-
-        <article class="producto col-md-4 col-sm-4 col-xs-12">
-          <img class="icon" src="img/icons/letra.svg" alt="Icon">
-          <h3>Señalización</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde obcaecati modi nisi atque vel!</p>
-        </article>
-
-        <article class="producto col-md-4 col-sm-4 col-xs-12">
-          <img class="icon" src="img/icons/impresion.svg" alt="Icon">
-          <h3>Rotulación Vehicular</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet blanditiis, non ratione maxime quo amet autem.</p>
-        </article>   
-      </div><!-- row -->   
-    </div><!-- content container -->
-  </div><!-- productos -->
+		<section class="products container">
+			<div class="row">
+				<div class="col-lg-6">
+					<p class="prod">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptates, excepturi magni alias repellat esse unde dolorum laborum cumque odio ducimus labore totam impedit quisquam consequuntur dolorem vero molestias odit ea nihil. Magni, quae qui ut ducimus facere ullam harum fugit sapiente quo. Temporibus, asperiores, cum illum ipsa ducimus iste veritatis dolore tempore dignissimos tempora. Eaque, rem saepe illo quis a laboriosam assumenda voluptas culpa mollitia at dolore delectus aliquam atque eveniet quae quibusdam dolorem alias dicta excepturi ea hic facilis sint? Consequuntur, ab, debitis, nihil, distinctio adipisci dolorem atque quas laboriosam delectus perspiciatis officiis temporibus vero earum et nam possimus doloribus accusamus recusandae voluptates explicabo provident hic dicta ratione quae sapiente veniam dolores aliquam unde ipsum fuga qui est esse officia velit libero eius dolore quos reprehenderit fugiat facilis enim nemo tenetur eaque obcaecati quo quidem! Aliquam ex fuga atque totam debitis aliquid quod perferendis asperiores veritatis doloremque. Architecto.</p>	
+				</div>	
+				<div class="col-lg-6">
+					<p class="prod">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptates, excepturi magni alias repellat esse unde dolorum laborum cumque odio ducimus labore totam impedit quisquam consequuntur dolorem vero molestias odit ea nihil. Magni, quae qui ut ducimus facere ullam harum fugit sapiente quo. Temporibus, asperiores, cum illum ipsa ducimus iste veritatis dolore tempore dignissimos tempora. Eaque, rem saepe illo quis a laboriosam assumenda voluptas culpa mollitia at dolore delectus aliquam atque eveniet quae quibusdam dolorem alias dicta excepturi ea hic facilis sint? Consequuntur, ab, debitis, nihil, distinctio adipisci dolorem atque quas laboriosam delectus perspiciatis officiis temporibus vero earum et nam possimus doloribus accusamus recusandae voluptates explicabo provident hic dicta ratione quae sapiente veniam dolores aliquam unde ipsum fuga qui est esse officia velit libero eius dolore quos reprehenderit fugiat facilis enim nemo tenetur eaque obcaecati quo quidem! Aliquam ex fuga atque totam debitis aliquid quod perferendis asperiores veritatis doloremque. Architecto.</p>	
+				</div>
+			</div>
+		</section>
 
 
-  <div class="page" id="servicios">
-    <div class="content container">
-      <h1>Servicios</h1>
-      <div class="row">
-        <article class="servicio col-xs-12 col-lg-4">
-          <img class="icon" src="img/icons/unipolar.svg" alt="Icon">
-          <h3>Mantenimiento</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit voluptates cupiditate iure ipsa, et facere.</p>
-        </article>
+		<div class="title main">
+			<h1>Servicios</h1>
+			<a class="scroll" id="servicios"></a>
+		</div> <!-- Title Servicios-->
 
-        <article class="servicio col-xs-12 col-lg-4">
-          <img class="icon" src="img/icons/letra.svg" alt="Icon">
-          <h3>Instalación</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, officia.</p>
-        </article>
+		<section class="products container">
+			<div class="row">
+				<div class="col-lg-4">
+					<p class="prod">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptates, excepturi magni alias repellat esse unde dolorum laborum cumque odio ducimus labore totam impedit quisquam consequuntur dolorem vero molestias odit ea nihil. Magni, quae qui ut ducimus facere ullam harum fugit sapiente quo. Temporibus, asperiores, cum illum ipsa ducimus iste veritatis dolore tempore dignissimos tempora. Eaque, rem saepe illo quis a laboriosam assumenda voluptas culpa mollitia at dolore delectus aliquam atque eveniet quae quibusdam dolorem alias dicta excepturi ea hic facilis sint? Consequuntur, ab, debitis, nihil, distinctio adipisci dolorem atque quas laboriosam delectus perspiciatis officiis temporibus vero earum et nam possimus doloribus accusamus recusandae voluptates explicabo provident hic dicta ratione quae sapiente veniam dolores aliquam unde ipsum fuga qui est esse officia velit libero eius dolore quos reprehenderit fugiat facilis enim nemo tenetur eaque obcaecati quo quidem! Aliquam ex fuga atque totam debitis aliquid quod perferendis asperiores veritatis doloremque. Architecto.</p>	
+				</div>	
+				<div class="col-lg-4">
+					<p class="prod">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptates, excepturi magni alias repellat esse unde dolorum laborum cumque odio ducimus labore totam impedit quisquam consequuntur dolorem vero molestias odit ea nihil. Magni, quae qui ut ducimus facere ullam harum fugit sapiente quo. Temporibus, asperiores, cum illum ipsa ducimus iste veritatis dolore tempore dignissimos tempora. Eaque, rem saepe illo quis a laboriosam assumenda voluptas culpa mollitia at dolore delectus aliquam atque eveniet quae quibusdam dolorem alias dicta excepturi ea hic facilis sint? Consequuntur, ab, debitis, nihil, distinctio adipisci dolorem atque quas laboriosam delectus perspiciatis officiis temporibus vero earum et nam possimus doloribus accusamus recusandae voluptates explicabo provident hic dicta ratione quae sapiente veniam dolores aliquam unde ipsum fuga qui est esse officia velit libero eius dolore quos reprehenderit fugiat facilis enim nemo tenetur eaque obcaecati quo quidem! Aliquam ex fuga atque totam debitis aliquid quod perferendis asperiores veritatis doloremque. Architecto.</p>	
+				</div>
+				<div class="col-lg-4">
+					<p class="prod">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptates, excepturi magni alias repellat esse unde dolorum laborum cumque odio ducimus labore totam impedit quisquam consequuntur dolorem vero molestias odit ea nihil. Magni, quae qui ut ducimus facere ullam harum fugit sapiente quo. Temporibus, asperiores, cum illum ipsa ducimus iste veritatis dolore tempore dignissimos tempora. Eaque, rem saepe illo quis a laboriosam assumenda voluptas culpa mollitia at dolore delectus aliquam atque eveniet quae quibusdam dolorem alias dicta excepturi ea hic facilis sint? Consequuntur, ab, debitis, nihil, distinctio adipisci dolorem atque quas laboriosam delectus perspiciatis officiis temporibus vero earum et nam possimus doloribus accusamus recusandae voluptates explicabo provident hic dicta ratione quae sapiente veniam dolores aliquam unde ipsum fuga qui est esse officia velit libero eius dolore quos reprehenderit fugiat facilis enim nemo tenetur eaque obcaecati quo quidem! Aliquam ex fuga atque totam debitis aliquid quod perferendis asperiores veritatis doloremque. Architecto.</p>	
+				</div>
+			</div>
+		</section>
 
-        <article class="servicio col-xs-12 col-lg-4">
-          <img class="icon" src="img/icons/impresion.svg" alt="Icon">
-          <h3>Levantamientos</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere eaque quae odio placeat quis ducimus perspiciatis?</p>
-        </article>
+		
+		<div class="title main">
+			<h1>Galería</h1>
+			<a class="scroll" id="galeria"></a>
+		</div> <!-- Title GAleria-->
 
-        
-      </div><!-- row -->   
-    </div><!-- content container -->
-  </div><!-- servicios -->
+		<section class="products container">
+			<div class="row">
+				<div class="col-lg-3">
+					<p class="prod">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptates, excepturi magni alias repellat esse unde dolorum laborum cumque odio ducimus labore totam impedit quisquam consequuntur dolorem vero molestias odit ea nihil. Magni, quae qui ut ducimus facere ullam harum fugit sapiente quo. Temporibus, asperiores, cum illum ipsa ducimus iste veritatis dolore tempore dignissimos tempora. Eaque, rem saepe illo quis a laboriosam assumenda voluptas culpa mollitia at dolore delectus aliquam atque eveniet quae quibusdam dolorem alias dicta excepturi ea hic facilis sint? Consequuntur, ab, debitis, nihil, distinctio adipisci dolorem atque quas laboriosam delectus perspiciatis officiis temporibus vero earum et nam possimus doloribus accusamus recusandae voluptates explicabo provident hic dicta ratione quae sapiente veniam dolores aliquam unde ipsum fuga qui est esse officia velit libero eius dolore quos reprehenderit fugiat facilis enim nemo tenetur eaque obcaecati quo quidem! Aliquam ex fuga atque totam debitis aliquid quod perferendis asperiores veritatis doloremque. Architecto.</p>	
+				</div>	
+				<div class="col-lg-3">
+					<p class="prod">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptates, excepturi magni alias repellat esse unde dolorum laborum cumque odio ducimus labore totam impedit quisquam consequuntur dolorem vero molestias odit ea nihil. Magni, quae qui ut ducimus facere ullam harum fugit sapiente quo. Temporibus, asperiores, cum illum ipsa ducimus iste veritatis dolore tempore dignissimos tempora. Eaque, rem saepe illo quis a laboriosam assumenda voluptas culpa mollitia at dolore delectus aliquam atque eveniet quae quibusdam dolorem alias dicta excepturi ea hic facilis sint? Consequuntur, ab, debitis, nihil, distinctio adipisci dolorem atque quas laboriosam delectus perspiciatis officiis temporibus vero earum et nam possimus doloribus accusamus recusandae voluptates explicabo provident hic dicta ratione quae sapiente veniam dolores aliquam unde ipsum fuga qui est esse officia velit libero eius dolore quos reprehenderit fugiat facilis enim nemo tenetur eaque obcaecati quo quidem! Aliquam ex fuga atque totam debitis aliquid quod perferendis asperiores veritatis doloremque. Architecto.</p>	
+				</div>
+				<div class="col-lg-3">
+					<p class="prod">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptates, excepturi magni alias repellat esse unde dolorum laborum cumque odio ducimus labore totam impedit quisquam consequuntur dolorem vero molestias odit ea nihil. Magni, quae qui ut ducimus facere ullam harum fugit sapiente quo. Temporibus, asperiores, cum illum ipsa ducimus iste veritatis dolore tempore dignissimos tempora. Eaque, rem saepe illo quis a laboriosam assumenda voluptas culpa mollitia at dolore delectus aliquam atque eveniet quae quibusdam dolorem alias dicta excepturi ea hic facilis sint? Consequuntur, ab, debitis, nihil, distinctio adipisci dolorem atque quas laboriosam delectus perspiciatis officiis temporibus vero earum et nam possimus doloribus accusamus recusandae voluptates explicabo provident hic dicta ratione quae sapiente veniam dolores aliquam unde ipsum fuga qui est esse officia velit libero eius dolore quos reprehenderit fugiat facilis enim nemo tenetur eaque obcaecati quo quidem! Aliquam ex fuga atque totam debitis aliquid quod perferendis asperiores veritatis doloremque. Architecto.</p>	
+				</div>
+				<div class="col-lg-3">
+					<p class="prod">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptates, excepturi magni alias repellat esse unde dolorum laborum cumque odio ducimus labore totam impedit quisquam consequuntur dolorem vero molestias odit ea nihil. Magni, quae qui ut ducimus facere ullam harum fugit sapiente quo. Temporibus, asperiores, cum illum ipsa ducimus iste veritatis dolore tempore dignissimos tempora. Eaque, rem saepe illo quis a laboriosam assumenda voluptas culpa mollitia at dolore delectus aliquam atque eveniet quae quibusdam dolorem alias dicta excepturi ea hic facilis sint? Consequuntur, ab, debitis, nihil, distinctio adipisci dolorem atque quas laboriosam delectus perspiciatis officiis temporibus vero earum et nam possimus doloribus accusamus recusandae voluptates explicabo provident hic dicta ratione quae sapiente veniam dolores aliquam unde ipsum fuga qui est esse officia velit libero eius dolore quos reprehenderit fugiat facilis enim nemo tenetur eaque obcaecati quo quidem! Aliquam ex fuga atque totam debitis aliquid quod perferendis asperiores veritatis doloremque. Architecto.</p>	
+				</div>
+			</div>
+		</section>
+
+		
+		
+		<div class="title main">
+			<h1>Nosotros</h1>
+			<a class="scroll" id="nosotros"></a>
+		</div> <!-- Title Nosotros-->
+
+		<section class="products container">
+			<div class="row">
+				<div class="col-lg-6">
+					<p class="prod">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptates, excepturi magni alias repellat esse unde dolorum laborum cumque odio ducimus labore totam impedit quisquam consequuntur dolorem vero molestias odit ea nihil. Magni, quae qui ut ducimus facere ullam harum fugit sapiente quo. Temporibus, asperiores, cum illum ipsa ducimus iste veritatis dolore tempore dignissimos tempora. Eaque, rem saepe illo quis a laboriosam assumenda voluptas culpa mollitia at dolore delectus aliquam atque eveniet quae quibusdam dolorem alias dicta excepturi ea hic facilis sint? Consequuntur, ab, debitis, nihil, distinctio adipisci dolorem atque quas laboriosam delectus perspiciatis officiis temporibus vero earum et nam possimus doloribus accusamus recusandae voluptates explicabo provident hic dicta ratione quae sapiente veniam dolores aliquam unde ipsum fuga qui est esse officia velit libero eius dolore quos reprehenderit fugiat facilis enim nemo tenetur eaque obcaecati quo quidem! Aliquam ex fuga atque totam debitis aliquid quod perferendis asperiores veritatis doloremque. Architecto.</p>	
+				</div>	
+				<div class="col-lg-6">
+					<p class="prod">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptates, excepturi magni alias repellat esse unde dolorum laborum cumque odio ducimus labore totam impedit quisquam consequuntur dolorem vero molestias odit ea nihil. Magni, quae qui ut ducimus facere ullam harum fugit sapiente quo. Temporibus, asperiores, cum illum ipsa ducimus iste veritatis dolore tempore dignissimos tempora. Eaque, rem saepe illo quis a laboriosam assumenda voluptas culpa mollitia at dolore delectus aliquam atque eveniet quae quibusdam dolorem alias dicta excepturi ea hic facilis sint? Consequuntur, ab, debitis, nihil, distinctio adipisci dolorem atque quas laboriosam delectus perspiciatis officiis temporibus vero earum et nam possimus doloribus accusamus recusandae voluptates explicabo provident hic dicta ratione quae sapiente veniam dolores aliquam unde ipsum fuga qui est esse officia velit libero eius dolore quos reprehenderit fugiat facilis enim nemo tenetur eaque obcaecati quo quidem! Aliquam ex fuga atque totam debitis aliquid quod perferendis asperiores veritatis doloremque. Architecto.</p>	
+				</div>
+			</div>
+		</section>
 
 
+		
 
-  <div class="page" id="galeria">
-    <div class="container-fluid">
-      <h1>Galería</h1>
-        <div class="filterable-portfolio container-fluid">
+		<div class="title main">
+			<h1>Contacto</h1>
+			<a class="scroll" id="contacto"></a>
+		</div> <!-- Title Contacto-->
 
-          <div class="row">
-            <div class="col-md-12">
-              <ul class="nav nav-pills portfolio-filter">
-                <li class="portfolio-title">
-                  <span>Filtrar por:</span>
-                </li>
-                <li role="presentation" class="active">
-                  <a href="#" data-filter="*">Todo</a>
-                </li>
-                <li role="presentation">
-                  <a href="#" data-filter=".unipol">Unipolares</a>
-                </li>
-                <li role="presentation">
-                  <a href="#" data-filter=".letra">Letras Individuales</a>
-                </li>
-                <li role="presentation">
-                  <a href="#" data-filter=".senal">Señalización</a>
-                </li>
-                <li role="presentation">
-                  <a href="#" data-filter=".impresion">Impresión</a>
-                </li>
-                <li role="presentation">
-                  <a href="#" data-filter=".marquesina">Marquesina</a>
-                </li>
-              </ul>
-            </div>
-          </div>
 
-          <div class="portfolio-items row">
-
-            <figure class="portfolio-item col-sm-4 item unipol">
-              <a href="#">
-                <img src="img/galeria/img1.jpg" class="img-responsive">
-              </a>
-            </figure>
-            <figure class="portfolio-item col-sm-4 item marquesina">
-              <a href="#">
-                <img src="img/galeria/img2.jpg" class="img-responsive">
-              </a>
-            </figure>
-            <figure class="portfolio-item col-sm-4 item letra">
-              <a href="#">
-                <img src="img/galeria/img3.jpg" class="img-responsive">
-              </a>
-            </figure>
-            <figure class="portfolio-item col-sm-4 item marquesina">
-              <a href="#">
-                <img src="img/galeria/img4.jpg" class="img-responsive">
-              </a>
-            </figure>
-            <figure class="portfolio-item col-sm-4 item letra marquesina">
-              <a href="#">
-                <img src="img/galeria/img5.jpg" class="img-responsive">
-              </a>
-            </figure>
-            <figure class="portfolio-item col-sm-4 item letra">
-              <a href="#">
-                <img src="img/galeria/img6.jpg" class="img-responsive">
-              </a>
-            </figure>
-            <figure class="portfolio-item col-sm-4 item marquesina letra">
-              <a href="#">
-                <img src="img/galeria/img7.jpg" class="img-responsive">
-              </a>
-            </figure>
-            <figure class="portfolio-item col-sm-4 item letra impresion">
-              <a href="#">
-                <img src="img/galeria/img8.jpg" class="img-responsive">
-              </a>
-            </figure>
-            <figure class="portfolio-item col-sm-4 item unipol impresion">
-              <a href="#">
-                <img src="img/galeria/img9.jpg" class="img-responsive">
-              </a>
-            </figure>
-            <figure class="portfolio-item col-sm-4 item marquesina letra">
-              <a href="#">
-                <img src="img/galeria/img10.jpg" class="img-responsive">
-              </a>
-            </figure>
-            <figure class="portfolio-item col-sm-4 item unipol">
-              <a href="#">
-                <img src="img/galeria/img11.jpg" class="img-responsive">
-              </a>
-            </figure>
-            <figure class="portfolio-item col-sm-4 item marquesina senal">
-              <a href="#">
-                <img src="img/galeria/img12.jpg" class="img-responsive">
-              </a>
-            </figure>
-            
-          </div>
-
-        </div>
+		<section class="products container">
+			<div class="row">
+				<div class="col-lg-12">
+					<p class="prod">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, voluptates, excepturi magni alias repellat esse unde dolorum laborum cumque odio ducimus labore totam impedit quisquam consequuntur dolorem vero molestias odit ea nihil. Magni, quae qui ut ducimus facere ullam harum fugit sapiente quo. Temporibus, asperiores, cum illum ipsa ducimus iste veritatis dolore tempore dignissimos tempora. </p>	
+				</div>	
+				<div class="page" id="contacto">
+    				<div class="container-fluid">
       
-    </div><!-- container -->
-  </div><!-- galeria -->
-
-
-
-
-
-  <div class="page" id="contacto">
-    <div class="container-fluid">
-      <h1>Contacto</h1>
         <div class="container">
   <div class="row">
       <div id="map-outer" class="col-md-12">
@@ -250,11 +135,11 @@
             <h2>Ubicación</h2>
             <address>
             <strong>Matriz</strong><br>
-                Camino Toluquilla-Calerilla No. 1<br>
-                Col. Toluquilla,<br>
-                Tlaquepaque, Jal.<br>
+                Rio Nilo No. 3379<br>
+                Col. Jardines de la Paz,<br>
+                Guadalajara, Jal.<br>
                 México<br>
-                <abbr>P:</abbr> (33) 3333-3333
+                <abbr>P:</abbr> (33) 1816-7212
            </address>
           </div>
         <div id="map-container" class="col-md-8"></div>
@@ -287,43 +172,29 @@
     </div>
 </form>
 </div><!-- /row -->
+
+
 </div><!-- /container -->
     </div><!-- container -->
   </div><!-- contacto -->
-
-
-
-</div><!-- main -->
-
-<footer>
-  <div class="content container-fluid">
-    <div class="row">
-      <div class="col-sm-6">
-        <p>Contactenos <br><span class="phone">(33) 3333-3333 <br> Cel. 33 3333-3333</span></p>
-        <p>&copy; 2015 <a href="#">www.topsa.mx</a> Todos los derechos reservados.</p>    
-      </div><!-- col-sm-6 -->
-      <div class="col-sm-6">
-        <nav class="navbar navbar-default" role="navigation">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Aviso de Privacidad</a></li>
-          </ul>
-        </nav>        
-      </div><!-- col-sm-6 -->
-    </div><!-- row -->
-  </div><!-- content container -->
-</footer>
-
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/isotope.pkgd.min.js"></script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
-<script src="js/myscript.js"></script>
-<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+		</section>
+		
+	
+		
+		
+		<footer class="footer">
+			<h4>© Copyright 2015 - Servicios Integrales en Publicidad</h4>
+		</footer>
+			<!-- JS -->
+			<script type="text/javascript" src="js/jquery.min.js"></script>
+			<script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+			<script type="text/javascript" src="js/jquery.mixitup.js"></script>
+			<script type="text/javascript" src="js/custom.js"></script>
+			<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
     <script>  
  
       function init_map() {
-    var var_location = new google.maps.LatLng(20.602927, -103.400268);
+    var var_location = new google.maps.LatLng(20.644756, -103.290876);
  
 
 
@@ -335,7 +206,7 @@
     var var_marker = new google.maps.Marker({
       position: var_location,
       map: var_map,
-      title:"TOPSA"});
+      title:"SIP"});
  
         var var_map = new google.maps.Map(document.getElementById("map-container"),
             var_mapoptions);
@@ -347,5 +218,5 @@
       google.maps.event.addDomListener(window, 'load', init_map);
  
     </script>
-</body>
+	</body> <!-- /Body -->
 </html>
