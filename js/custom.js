@@ -1,6 +1,6 @@
-$(document).ready(function() { 
+$(document).ready(function() {
 
-	//Animated scrolling		   
+	//Animated scrolling
 	$('ul.mainmenu a').click(function() {
 		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 			var $target = $(this.hash);
@@ -32,7 +32,7 @@ $(document).ready(function() {
 			});
 		};
 	});
-	
+
 	$(window).scroll(function(){
 		if ($('body').scrollTop() > 0 && scroll == 'true') {
 			if (nav.data('size') == 'big') {
@@ -46,7 +46,7 @@ $(document).ready(function() {
 					marginTop:'-100px'
 				}, 300);
 			}
-			
+
 		}
 	});
 
@@ -65,7 +65,7 @@ $(document).ready(function() {
               el.text(text[index + 1]).animate({
                 textShadowBlur:0,
                 opacity: 1
-              }, 2000 );
+              }, 2500 );
             });
 		}, 3000);
 	});
